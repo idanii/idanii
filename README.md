@@ -1,16 +1,11 @@
-### Hi there 👋
-
-<!--
-**idanii/idanii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```js
+const HelloWorld = async () => {
+  const response = await fetch("https://github.com/idanii", {
+    method: "POST",
+    data: {
+      title: "Hey there 👋 I'm Idan Masas - Software developer."
+      content: "I started coding at the age of 12, and have been exploring and learning the security & technology world ever since. I'm a self-learner, love solving hard problems,                 and passionate about security and programming."
+    }
+  })
+}
+```
