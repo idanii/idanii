@@ -8,7 +8,7 @@ const HelloWorld = async () => {
 
   const response = await fetch("https://github.com/idanii", {
     method: "POST",
-    data: JSON.stringify(data)
+    body: JSON.stringify(data)
   })
   
   console.log(response.json())
