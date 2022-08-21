@@ -7,7 +7,7 @@ const HelloWorld = async () => {
     key: "OG5ibW1NT2VCUFpSdWZ2VHBBa0JlTllKQndRWDV6WGw="
   }
 
-  const response = await fetch("https://idanmasas-github.idanosh.repl.co/", {
+  const response = await fetch("https://github.idanmasas.com", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(data)
